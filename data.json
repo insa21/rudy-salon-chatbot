@@ -69,297 +69,272 @@
         "§"
       ],
       "responses": [
-        "Saya tidak mengerti maksud anda",
-        "Pertanyaan yang anda maksud tidak ada dalam data kami"
+        "Maaf, saya belum mengerti maksud Anda. Bisa coba dijelaskan lagi?",
+        "Hmm, saya belum punya informasi tentang itu. Ada yang lain yang bisa saya bantu?"
       ]
     },
     {
       "tag": "greeting",
-      "patterns": [
-        "Halo",
-        "Hallo",
-        "Hai",
-        "Hei",
-        "Woy",
-        "Kuy",
-        "Salam",
-        "hey",
-        "hi",
-        "hy",
-        "pagi",
-        "morning",
-        "siang",
-        "afternoon",
-        "sore",
-        "malam",
-        "bro",
-        "sis",
-        "kawan"
-      ],
+      "patterns": ["Halo", "Hai", "Pagi", "Siang", "Malam", "Hey", "Hi"],
       "responses": [
-        "Hallo, ada yang bisa saya bantu",
-        "Hallo juga, silahkan masukan pertanyaan yang ingin ditanyakan"
-      ],
-      "context": [""]
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai, selamat datang di RUDI SALON & SPA! Ada yang bisa saya bantu?"
+      ]
     },
     {
       "tag": "goodbye",
-      "patterns": [
-        "Dah",
-        "Dadah",
-        "Bye",
-        "Byee",
-        "Good bye",
-        "Selamat tinggal",
-        "Sampai jumpa",
-        "Bai",
-        "See you"
-      ],
+      "patterns": ["Bye", "Dah", "Selamat tinggal", "Sampai jumpa"],
       "responses": [
-        "Bye!",
-        "Dadahh!",
-        "Good bye!",
-        "Dahh, semoga harimu menyenangkan yaa!",
-        "Sampai jumpa lagi!",
-        "See u! Senang bisa membantu",
-        "Sampai jumpa lagi",
-        "Semoga harimu menyenangkan",
-        "Dadah! Kembali lagi yaa.....",
-        "Senang berbincang dengan anda....",
-        "Selamat menikmati harimu..."
+        "Sampai jumpa lagi, semoga harimu menyenangkan!",
+        "Bye! Jangan lupa kembali lagi ya."
       ]
     },
     {
       "tag": "terimakasih",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "Terima kasih",
-        "Makasih",
-        "Terima kasih banyak"
-      ],
-      "responses": ["Dengan senang hati:)", "Terimakasih kembali"]
+      "patterns": ["Terima kasih", "Thanks", "Makasih", "terimakasih"],
+      "responses": [
+        "Sama-sama! Senang bisa membantu.",
+        "Terima kasih kembali. Ada lagi yang bisa saya bantu?"
+      ]
     },
     {
       "tag": "salam",
-      "patterns": [
-        "assalamualaikum ",
-        "Hallo, assalamualaikum RUDI SALON & SPA",
-        "assalamualaikum RUDI SALON & SPA",
-        "Hai RUDI SALON & SPA"
-      ],
+      "patterns": ["Assalamualaikum"],
       "responses": [
-        "Waalaikumussalam, ada yang bisa saya bantu di RUDI SALON & SPA?",
-        "Waalaikumussalam, silahkan masukkan pertanyaan yang ingin ditanyakan seputar layanan kami.",
-        "Waalaikumussalam, silahkan masukkan pertanyaan terkait layanan atau produk di RUDI SALON & SPA.",
-        "Halo! Ada yang bisa saya bantu? Kami siap melayani Anda di RUDI SALON & SPA."
-      ],
-      "context": [""]
+        "Waalaikumsalam, ada yang bisa saya bantu di RUDI SALON & SPA?",
+        "Waalaikumsalam, silakan ajukan pertanyaan Anda!"
+      ]
     },
     {
       "tag": "layanan",
       "patterns": [
-        "Apa saja layanan yang tersedia?",
-        "Layanan apa saja yang ada di salon?",
-        "Apa saja perawatan yang ada di RUDI SALON & SPA?",
-        "Jenis perawatan yang kami tawarkan?"
+        "Apa saja layanan di sini?",
+        "Layanan apa yang tersedia?",
+        "Jenis perawatan apa yang ada?",
+        "Layanan apa yang ditawarkan Rudy Salon?",
+        "Apa saja treatment yang bisa dilakukan di sini?",
+        "Perawatan apa saja yang tersedia di Rudy Salon?"
       ],
       "responses": [
-        "Kami menyediakan berbagai layanan seperti potong rambut, coloring, facial, spa, serta body treatment.",
-        "Layanan yang kami tawarkan meliputi perawatan rambut, wajah, tubuh, serta spa relaksasi.",
-        "Di RUDI SALON & SPA, kami menyediakan layanan perawatan rambut, perawatan wajah, body treatment, dan relaksasi spa."
-      ],
-      "context": [""]
+        "Kami menawarkan potong rambut, coloring, facial, spa, dan body treatment. Ada yang ingin dicoba?",
+        "Layanan kami meliputi perawatan rambut, wajah, tubuh, dan spa relaksasi. Tertarik mencoba yang mana?",
+        "Di Rudy Salon, Anda bisa menikmati potong rambut, pewarnaan, facial, spa relaksasi, serta perawatan tubuh lainnya.",
+        "Kami menyediakan berbagai layanan mulai dari potong rambut, coloring, facial, body treatment, hingga spa untuk relaksasi.",
+        "Layanan yang kami tawarkan mencakup perawatan rambut, facial, spa, body treatment, serta layanan lainnya untuk menjaga kecantikan Anda.",
+        "Rudy Salon menawarkan layanan potong rambut, pewarnaan, facial, spa, dan berbagai treatment untuk kulit dan tubuh.",
+        "Kami memiliki berbagai layanan perawatan mulai dari potong rambut, coloring, facial, body treatment, hingga spa untuk relaksasi."
+      ]
     },
     {
       "tag": "harga",
       "patterns": [
-        "Berapa harga perawatan rambut?",
-        "Harga layanan salon berapa?",
-        "Berapa biaya untuk facial?",
-        "Berapa harga perawatan wajah di salon?"
+        "Berapa harga facial?",
+        "Harga layanan berapa?",
+        "Berapa biaya perawatan?"
       ],
       "responses": [
-        "Harga perawatan rambut dimulai dari Rp100.000, harga bervariasi tergantung jenis layanan.",
-        "Biaya untuk facial dimulai dari Rp150.000, tergantung jenis perawatan yang dipilih.",
-        "Harga layanan di salon kami bervariasi, mulai dari Rp100.000 hingga Rp500.000 tergantung layanan yang Anda pilih."
-      ],
-      "context": [""]
+        "Harga facial dimulai dari Rp150.000, tergantung jenis perawatan.",
+        "Layanan kami mulai dari Rp100.000 hingga Rp500.000. Ingin tahu lebih lanjut?"
+      ]
     },
     {
       "tag": "jadwal",
       "patterns": [
-        "Jam buka salon",
-        "Jam operasional RUDI SALON & SPA",
-        "Salon buka jam berapa?",
-        "Jam berapa salon buka?"
+        "Jam buka salon?",
+        "Salon buka sampai jam berapa?",
+        "Jam operasional Rudy Salon?",
+        "Kapan Rudy Salon buka?"
       ],
       "responses": [
-        "RUDI SALON & SPA buka setiap hari dari jam 09:00 hingga 19:00.",
-        "Kami buka setiap hari mulai pukul 09:00 hingga 19:00, siap melayani Anda.",
-        "Jam operasional kami adalah 09:00 - 19:00 setiap hari. Silakan datang kapan saja dalam jam operasional kami."
-      ],
-      "context": [""]
+        "Kami buka setiap hari dari jam 09:00 hingga 19:00.",
+        "Jam operasional kami adalah 09:00 - 19:00. Silakan datang kapan saja dalam jam tersebut!",
+        "Rudy Salon buka setiap hari mulai jam 09:00 hingga 19:00.",
+        "Kami melayani Anda setiap hari dari pukul 09:00 sampai 19:00. Silakan datang ke salon kami."
+      ]
     },
     {
       "tag": "kontak",
       "patterns": [
-        "Bagaimana cara menghubungi RUDI SALON & SPA?",
-        "Nomor kontak salon",
-        "Kontak RUDI SALON & SPA",
-        "Bagaimana cara menghubungi salon?"
+        "Bagaimana cara menghubungi?",
+        "Nomor kontak salon?",
+        "Apa nomor yang bisa dihubungi?",
+        "Bagaimana cara saya bisa menghubungi Rudy Salon?",
+        "Ada nomor yang bisa dihubungi?",
+        "Nomor telepon Rudy Salon?",
+        "Kontak untuk reservasi?",
+        "Saya ingin menghubungi Rudy Salon, bagaimana caranya?"
       ],
       "responses": [
-        "Anda dapat menghubungi kami melalui nomor telepon 0812-3456-7890.",
-        "Silakan hubungi kami di nomor 0812-3456-7890 atau WhatsApp untuk pertanyaan lebih lanjut.",
-        "Kami dapat dihubungi melalui telepon di 0812-3456-7890 atau WhatsApp untuk informasi lebih lanjut."
-      ],
-      "context": [""]
+        "Anda bisa hubungi kami di +6281399891248. Kami siap membantu!",
+        "Kontak kami: +6281399891248. Silakan hubungi untuk pertanyaan lebih lanjut.",
+        "Untuk informasi lebih lanjut, hubungi kami di +6281399891248. Kami siap melayani Anda.",
+        "Jika ada pertanyaan atau untuk reservasi, silakan hubungi kami di +6281399891248.",
+        "Hubungi kami di +6281399891248 untuk informasi lebih lanjut dan pemesanan.",
+        "Nomor kontak Rudy Salon adalah +6281399891248. Jangan ragu untuk menghubungi kami kapan saja!",
+        "Untuk konsultasi atau pemesanan, Anda bisa menghubungi kami di +6281399891248.",
+        "Anda dapat menghubungi kami melalui nomor telepon +6281399891248 untuk pertanyaan atau informasi lebih lanjut."
+      ]
     },
     {
       "tag": "reservasi",
       "patterns": [
-        "Saya ingin membuat janji temu",
-        "Bisa reservasi untuk layanan salon?",
-        "Saya ingin booking perawatan",
-        "Bisa mendaftar untuk layanan?"
+        "Bagaimana cara reservasi?",
+        "Bisa booking perawatan?",
+        "Apa cara untuk melakukan reservasi?",
+        "Saya ingin membuat reservasi, bagaimana caranya?",
+        "Bagaimana cara melakukan booking untuk perawatan?",
+        "Apakah saya bisa reservasi layanan?",
+        "Bagaimana cara pesan perawatan di Rudy Salon?"
       ],
       "responses": [
-        "Tentu! Silakan sebutkan layanan yang ingin Anda reservasi dan waktu yang diinginkan.",
-        "Kami akan membantu Anda membuat janji. Harap sebutkan jenis layanan dan waktu yang diinginkan.",
-        "Untuk melakukan reservasi, beri tahu kami layanan yang ingin Anda pilih dan jadwal yang diinginkan.",
-        "Silakan sebutkan layanan yang ingin Anda reservasi dan waktu yang diinginkan, kami akan segera mengonfirmasi."
-      ],
-      "context": [""]
-    },
-    {
-      "tag": "tanya_jenis_rambut",
-      "patterns": [
-        "Apa saja jenis perawatan rambut?",
-        "Perawatan rambut apa yang ada?",
-        "Ada layanan untuk rambut berwarna?",
-        "Jenis perawatan rambut seperti apa yang ditawarkan?"
-      ],
-      "responses": [
-        "Kami menyediakan berbagai jenis perawatan rambut seperti potong, creambath, coloring, serta perawatan khusus untuk rambut rusak.",
-        "Layanan rambut kami meliputi potong rambut, perawatan creambath, coloring, serta treatment untuk rambut berwarna.",
-        "Tersedia perawatan rambut seperti potong rambut, creambath, coloring, serta perawatan untuk rambut rusak dan kering."
-      ],
-      "context": [""]
-    },
-    {
-      "tag": "tanya_facial",
-      "patterns": [
-        "Apa itu facial?",
-        "Bagaimana perawatan facial di RUDI SALON & SPA?",
-        "Ada jenis facial apa saja?",
-        "Perawatan wajah apa yang tersedia?"
-      ],
-      "responses": [
-        "Facial adalah perawatan wajah yang membantu membersihkan, menyegarkan, dan mengatasi masalah kulit wajah.",
-        "Kami menawarkan berbagai jenis facial, mulai dari facial pemutihan hingga perawatan anti-aging.",
-        "Layanan facial kami meliputi deep cleansing facial, brightening facial, dan treatment wajah lainnya untuk kulit lebih sehat."
-      ],
-      "context": [""]
-    },
-    {
-      "tag": "spa",
-      "patterns": [
-        "Apa itu spa?",
-        "Apa saja perawatan spa yang tersedia?",
-        "Ada layanan spa untuk relaksasi?",
-        "Bagaimana perawatan spa di salon?"
-      ],
-      "responses": [
-        "Spa di RUDI SALON & SPA dirancang untuk memberikan relaksasi total dengan perawatan tubuh dan pijatan yang menyegarkan.",
-        "Kami menawarkan layanan spa relaksasi yang meliputi pijat tubuh, body scrub, dan perawatan aromaterapi.",
-        "Spa kami menawarkan berbagai layanan, seperti massage, body scrub, dan relaksasi dengan aroma terapi."
-      ],
-      "context": [""]
+        "Tentu saja! Beri tahu kami jenis layanan dan waktu yang diinginkan.",
+        "Silakan sebutkan perawatan yang ingin Anda pesan dan jadwalnya. Kami akan mengatur untuk Anda.",
+        "Untuk reservasi, cukup sebutkan layanan yang Anda inginkan dan waktu yang tersedia. Kami siap membantu!",
+        "Anda dapat melakukan reservasi dengan menyebutkan jenis layanan dan waktu yang Anda inginkan. Kami akan mengonfirmasi jadwalnya.",
+        "Untuk memesan layanan, beri tahu kami jenis perawatan dan waktu yang Anda inginkan. Kami akan segera mengatur jadwalnya.",
+        "Reservasi sangat mudah! Cukup informasikan layanan yang diinginkan dan jadwal yang sesuai, dan kami akan menyiapkan semuanya.",
+        "Ingin melakukan reservasi? Sebutkan layanan dan waktu yang Anda pilih, kami akan menyesuaikan jadwal untuk Anda.",
+        "Anda bisa melakukan reservasi dengan menginformasikan jenis perawatan dan waktu yang diinginkan. Kami akan segera mengonfirmasi reservasi Anda."
+      ]
     },
     {
       "tag": "promo",
       "patterns": [
-        "Ada promo di RUDI SALON & SPA?",
-        "Ada diskon di salon?",
-        "Apa saja promo yang sedang berlangsung?",
-        "Ada potongan harga tidak?"
+        "diskon",
+        "promo",
+        "Ada promo saat ini?",
+        "Diskon apa yang tersedia?",
+        "Apa ada penawaran khusus?",
+        "Promo spesial apa yang sedang berlangsung?",
+        "Ada diskon bulan ini?",
+        "Apakah ada potongan harga sekarang?",
+        "Ada promo menarik di Rudy Salon & Spa?"
       ],
       "responses": [
-        "Saat ini kami memiliki promo potongan harga hingga 30% untuk layanan perawatan rambut dan facial.",
-        "Nikmati promo spesial bulan ini! Diskon 20% untuk semua perawatan wajah dan rambut. Hubungi kami untuk informasi lebih lanjut.",
-        "Kami menawarkan promo spesial untuk paket perawatan tubuh, potongan harga hingga 25%. Jangan lewatkan!"
-      ],
-      "context": [""]
+        "Kami punya promo potongan harga hingga 30% untuk perawatan rambut dan facial. Tertarik mencoba? Untuk informasi lebih lanjut, kunjungi: (https://www.rudyhadisuwarno.id/promo)",
+        "Promo spesial bulan ini: Diskon 20% untuk perawatan wajah dan rambut. Jangan lewatkan! Lihat detail lebih lanjut di: (https://www.rudyhadisuwarno.id/promo)",
+        "Dapatkan diskon 25% untuk perawatan rambut dan wajah saat kamu booking minggu ini! Cek lebih lanjut di: (https://www.rudyhadisuwarno.id/promo)",
+        "Ada promo khusus untuk pelanggan baru, potongan harga 15% untuk semua layanan. Yuk coba! Informasi lebih lanjut ada di: (https://www.rudyhadisuwarno.id/promo)",
+        "Nikmati diskon 10% untuk paket perawatan rambut dan tubuh. Cek jadwalnya sekarang! Lihat promo lainnya di: (https://www.rudyhadisuwarno.id/promo)",
+        "Untuk bulan ini, dapatkan voucher diskon 30% untuk perawatan wajah dan rambut. Tunggu apa lagi? Cek detailnya di: (https://www.rudyhadisuwarno.id/promo)",
+        "Spesial bulan ini, diskon 20% untuk semua perawatan kecantikan! Buruan sebelum kehabisan! Kunjungi kami untuk info lebih lanjut di: (https://www.rudyhadisuwarno.id/promo)",
+        "Untuk informasi lebih lanjut tentang promo kami, kunjungi: (https://www.rudyhadisuwarno.id/promo)"
+      ]
     },
     {
-      "tag": "promo_berkala",
+      "tag": "karyawan",
       "patterns": [
-        "Ada promo tahunan?",
-        "Promo besar akhir tahun?",
-        "Ada diskon besar-besaran?",
-        "Promo musim liburan?"
+        "Berapa banyak staf di sini?",
+        "Ada berapa stylist di salon ini?",
+        "Berapa banyak karyawan yang bekerja di Rudy Salon?",
+        "Ada berapa orang di tim Rudy Salon?",
+        "Berapa banyak stylist yang melayani di salon ini?",
+        "Tim Rudy Salon terdiri dari berapa orang?",
+        "Berapa jumlah staf yang bekerja di salon Rudy?"
       ],
       "responses": [
-        "Promo akhir tahun telah tiba! Dapatkan potongan hingga 50% untuk berbagai layanan salon.",
-        "Kami memiliki promo tahunan yang memberikan diskon hingga 40% untuk perawatan rambut dan facial. Segera datang!",
-        "Jangan lewatkan promo besar akhir tahun kami dengan diskon hingga 60% untuk paket perawatan lengkap."
-      ],
-      "context": [""]
+        "Kami memiliki 10 stylist profesional yang siap melayani Anda.",
+        "Tim kami terdiri dari 15 orang, termasuk stylist, terapis, dan resepsionis yang ramah.",
+        "Salon kami memiliki lebih dari 12 stylist yang berpengalaman untuk memberikan layanan terbaik.",
+        "Kami memiliki 20 staf yang terdiri dari stylist, terapis, dan tim pendukung lainnya.",
+        "Di Rudy Salon, kami memiliki 18 staf yang terdiri dari stylist handal dan terapis berpengalaman.",
+        "Tim kami terdiri dari 12 orang, termasuk stylist, terapis, dan resepsionis yang siap membantu kebutuhan Anda.",
+        "Terdapat 15 stylist profesional yang siap memberikan perawatan terbaik untuk Anda.",
+        "Di salon ini, ada 14 stylist dan beberapa staf pendukung untuk memastikan layanan terbaik."
+      ]
     },
     {
-      "tag": "testimonial",
+      "tag": "lokasi",
       "patterns": [
-        "Bagaimana pendapat orang tentang salon ini?",
-        "Ada testimonial dari pelanggan?",
-        "Ulasan pelanggan tentang RUDI SALON & SPA?"
+        "Dimana lokasi salon ini?",
+        "Alamat RUDy SALON & SPA dimana?"
       ],
       "responses": [
-        "Pelanggan kami sangat puas dengan layanan yang kami berikan, mereka mengatakan bahwa perawatan kami berkualitas dan membuat mereka merasa lebih segar.",
-        "Banyak pelanggan yang memberikan feedback positif tentang pelayanan kami, terutama mengenai kualitas rambut dan facial yang menyegarkan.",
-        "Kami mendapatkan banyak ulasan positif, mereka menyukai suasana nyaman dan hasil perawatan yang memuaskan."
-      ],
-      "context": [""]
+        "Hai Berikut beberapa lokasi salon Rudy Hadisuwarno yang bisa Anda kunjungi\n\n1 Salon Rudy Hadisuwarno Signature Jakarta\nMall of Indonesia Lantai 1 G11\nUntuk reservasi hubungi +62 81399891248 WA Only\n\n2 Salon Rudy Cipondoh Tangerang\nRuko Estrella AC05 Jl Rasuna Said No125 Pakojan Kota Tangerang Banten 15142\n\n3 Salon Rudy Denpasar Denpasar\nJl Yudistira No15A Dangin Puri Kauh Kec Denpasar Utara Kota Denpasar Bali 80224\n\n4 Salon Rudy Kuta Bali Kuta\nJl Raya Kuta No104 Kuta Kec Kuta Kabupaten Badung Bali 80361\n\n5 Salon Rudy Mal Ciputra Jakarta Barat\nMal Ciputra Lantai LG No 37 Jl Letjen S Parman Grogol Jakarta Barat\n\nUntuk informasi lebih lanjut kunjungi halaman lokasi kami di [https://www.rudyhadisuwarno.id/location](https://www.rudyhadisuwarno.id/location)\nSemoga salah satu lokasi ini dekat dengan Anda"
+      ]
     },
     {
-      "tag": "tanya_produk",
+      "tag": "metode_pembayaran",
       "patterns": [
-        "Apa produk yang digunakan di salon?",
-        "Produk apa yang dipakai untuk perawatan rambut?",
-        "Salon menggunakan produk apa?"
+        "Apa saja metode pembayaran yang diterima?",
+        "Bisa bayar pakai kartu?",
+        "Metode pembayaran apa saja yang diterima di Rudy Salon?",
+        "Apa saja cara pembayaran di salon ini?",
+        "Bisa bayar pakai e-wallet?",
+        "Pembayaran diterima dengan cara apa saja?",
+        "Metode pembayaran apa yang tersedia di Rudy Salon?"
       ],
       "responses": [
-        "Kami menggunakan produk perawatan rambut dan wajah berkualitas tinggi, seperti merek terkenal yang aman dan teruji.",
-        "Produk yang kami gunakan adalah produk premium yang telah teruji aman, seperti produk untuk rambut rusak dan kulit sensitif.",
-        "Kami menggunakan berbagai produk bersertifikat, dari shampo, conditioner, hingga serum rambut dan facial cream untuk hasil terbaik."
-      ],
-      "context": [""]
+        "Kami menerima pembayaran tunai, kartu debit/kredit, dan e-wallet seperti OVO dan GoPay.",
+        "Pembayaran bisa dilakukan dengan tunai, kartu, atau e-wallet. Silakan pilih yang nyaman untuk Anda!",
+        "Di Rudy Salon, kami menerima pembayaran menggunakan tunai, kartu kredit/debit, serta e-wallet seperti OVO dan GoPay.",
+        "Anda dapat membayar dengan tunai, kartu debit atau kredit, atau menggunakan e-wallet seperti OVO, GoPay, dan lainnya.",
+        "Kami menerima berbagai metode pembayaran, termasuk tunai, kartu, dan e-wallet seperti OVO dan GoPay.",
+        "Metode pembayaran yang kami terima adalah tunai, kartu kredit/debit, dan e-wallet seperti OVO, GoPay, serta lainnya.",
+        "Untuk kenyamanan Anda, kami menerima pembayaran dengan tunai, kartu, serta e-wallet seperti OVO dan GoPay."
+      ]
     },
     {
-      "tag": "tanya_sertifikat",
+      "tag": "keluhan",
       "patterns": [
-        "Apakah perawatan di salon menggunakan produk bersertifikat?",
-        "Produk yang digunakan di salon bersertifikat tidak?",
-        "Apakah produk yang digunakan aman?"
+        "Saya tidak puas dengan layanan",
+        "Bagaimana cara komplain?",
+        "Saya ingin menyampaikan keluhan",
+        "Layanan di sini kurang memuaskan",
+        "Ada keluhan tentang layanan yang saya terima",
+        "Saya ingin memberikan masukan terkait layanan",
+        "Bagaimana cara mengajukan keluhan di Rudy Salon?"
       ],
       "responses": [
-        "Ya, semua produk yang kami gunakan di RUDI SALON & SPA memiliki sertifikasi dan aman untuk digunakan.",
-        "Kami hanya menggunakan produk berkualitas tinggi yang telah teruji dan bersertifikat untuk memastikan keamanan perawatan."
-      ],
-      "context": [""]
+        "Kami mohon maaf atas ketidaknyamanannya. Anda bisa sampaikan keluhan Anda di nomor 6281399891248.",
+        "Kami menghargai masukan Anda. Silakan hubungi kami melalui nomor kontak atau email untuk menyampaikan keluhan.",
+        "Kami sangat menghargai feedback Anda. Untuk keluhan, Anda dapat menghubungi kami di nomor 6281399891248 atau melalui email kami.",
+        "Kami minta maaf jika layanan kami tidak memenuhi harapan Anda. Silakan hubungi kami di nomor 6281399891248 untuk mengajukan keluhan atau memberikan saran.",
+        "Jika ada ketidakpuasan dengan layanan, kami siap mendengarkan dan membantu. Hubungi kami di nomor 6281399891248 untuk keluhan lebih lanjut.",
+        "Kami ingin memastikan kepuasan Anda. Untuk keluhan, Anda dapat menghubungi kami di nomor 6281399891248 atau melalui email kami.",
+        "Kami sangat menghargai feedback yang membangun. Jika Anda memiliki keluhan, silakan hubungi kami di nomor 6281399891248."
+      ]
     },
     {
-      "tag": "feedback",
+      "tag": "spa_rekomendasi",
       "patterns": [
-        "Bagaimana memberikan feedback untuk salon?",
-        "Bolehkah memberikan ulasan atau feedback?",
-        "Dimana saya bisa memberi feedback tentang layanan salon?"
+        "Rekomendasi spa terbaik?",
+        "Spa yang cocok untuk relaksasi?",
+        "Apa paket spa terbaik untuk relaksasi?",
+        "Spa untuk relaksasi apa yang bisa dicoba?",
+        "Apa spa yang paling cocok untuk melepaskan stres?",
+        "Paket spa apa yang disarankan untuk relaksasi?"
       ],
       "responses": [
-        "Kami sangat menghargai feedback Anda. Silakan kirimkan ulasan atau masukan melalui WhatsApp atau di platform ulasan online kami.",
-        "Anda bisa memberikan feedback atau ulasan tentang layanan kami melalui WhatsApp atau di halaman review online kami."
+        "Kami merekomendasikan paket spa Aromatherapy untuk relaksasi terbaik. Harganya Rp300.000 per sesi.",
+        "Untuk relaksasi, coba paket Body Spa + Aromatherapy. Dijamin membuat Anda rileks.",
+        "Paket spa Aromatherapy sangat cocok untuk relaksasi, dengan harga Rp300.000 per sesi.",
+        "Cobalah paket Body Spa + Aromatherapy untuk pengalaman relaksasi yang luar biasa. Harga Rp350.000 per sesi.",
+        "Untuk meredakan stres, kami menyarankan paket Relaxation Spa yang mencakup pijat aromaterapi. Harga Rp250.000 per sesi.",
+        "Paket spa terbaik untuk Anda adalah Aromatherapy atau Body Spa, keduanya efektif untuk relaksasi maksimal.",
+        "Jika Anda mencari relaksasi, coba paket Body Spa + Aromatherapy, yang akan membuat Anda merasa lebih segar dan tenang."
+      ]
+    },
+    {
+      "tag": "facial_rekomendasi",
+      "patterns": [
+        "Facial untuk kulit berminyak?",
+        "Facial yang cocok untuk kulit sensitif?",
+        "Facial yang bagus untuk kulit kering?",
+        "Paket facial untuk kulit sensitif?",
+        "Apa facial yang cocok untuk kulit berminyak?",
+        "Rekomendasi facial untuk kulit kering?"
       ],
-      "context": [""]
+      "responses": [
+        "Untuk kulit berminyak, kami merekomendasikan paket Deep Cleansing Facial. Aman dan efektif.",
+        "Cobalah paket Sensitive Skin Facial untuk kulit sensitif. Hasilnya akan membuat kulit Anda lebih tenang.",
+        "Jika Anda memiliki kulit berminyak, paket Deep Cleansing Facial adalah pilihan yang tepat untuk membersihkan dan menyegarkan kulit.",
+        "Untuk kulit sensitif, kami menyarankan paket Sensitive Skin Facial yang dirancang khusus untuk merawat kulit dengan lembut.",
+        "Facial untuk kulit berminyak yang paling cocok adalah Deep Cleansing Facial. Ini akan membantu mengatasi kelebihan minyak dan pori-pori tersumbat.",
+        "Jika kulit Anda sensitif, coba paket Sensitive Skin Facial. Facial ini akan menenangkan dan melembapkan kulit tanpa iritasi.",
+        "Bagi kulit kering, kami merekomendasikan paket Hydrating Facial yang dapat memberikan kelembapan ekstra untuk kulit Anda.",
+        "Untuk kulit sensitif, kami punya paket Facial Gentle Care yang memberikan perawatan lembut dan menenangkan."
+      ]
     }
   ]
 }

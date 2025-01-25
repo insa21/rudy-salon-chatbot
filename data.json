@@ -75,7 +75,16 @@
     },
     {
       "tag": "greeting",
-      "patterns": ["Halo", "Hai", "Pagi", "Siang", "Malam", "Hey", "Hi", "hallo"],
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Pagi",
+        "Siang",
+        "Malam",
+        "Hey",
+        "Hi",
+        "hallo"
+      ],
       "responses": [
         "Halo! Ada yang bisa saya bantu?",
         "Hai, selamat datang di RUDI SALON & SPA! Ada yang bisa saya bantu?"
@@ -351,6 +360,126 @@
         "Untuk meredakan stres, kami menyarankan paket Relaxation Spa yang mencakup pijat aromaterapi. Harga Rp250.000 per sesi.",
         "Paket spa terbaik untuk Anda adalah Aromatherapy atau Body Spa, keduanya efektif untuk relaksasi maksimal.",
         "Jika Anda mencari relaksasi, coba paket Body Spa + Aromatherapy, yang akan membuat Anda merasa lebih segar dan tenang."
+      ]
+    },
+    {
+      "tag": "facial_berminyak",
+      "patterns": [
+        "kulit berminyak",
+        "Facial untuk kulit berminyak?",
+        "Apa facial yang cocok untuk kulit berminyak?",
+        "Rekomendasi facial untuk kulit berminyak?"
+      ],
+      "responses": [
+        "Untuk kulit berminyak, kami merekomendasikan paket Deep Cleansing Facial. Aman dan efektif untuk mengatasi kelebihan minyak.",
+        "Facial yang cocok untuk kulit berminyak adalah Deep Cleansing Facial. Ini akan membantu membersihkan minyak berlebih dan pori-pori tersumbat.",
+        "Paket Deep Cleansing Facial adalah pilihan terbaik untuk kulit berminyak. Ini dapat membersihkan dan menyegarkan kulit Anda."
+      ]
+    },
+    {
+      "tag": "facial_sensitif",
+      "patterns": [
+        "kulit sensitif",
+        "Facial yang cocok untuk kulit sensitif?",
+        "Paket facial untuk kulit sensitif?",
+        "Apa facial yang cocok untuk kulit sensitif?"
+      ],
+      "responses": [
+        "Cobalah paket Sensitive Skin Facial untuk kulit sensitif. Hasilnya akan membuat kulit Anda lebih tenang.",
+        "Untuk kulit sensitif, kami menyarankan paket Sensitive Skin Facial yang dirancang khusus untuk merawat kulit dengan lembut.",
+        "Jika kulit Anda sensitif, coba paket Sensitive Skin Facial. Facial ini akan menenangkan dan melembapkan kulit tanpa iritasi."
+      ]
+    },
+    {
+      "tag": "facial_kering",
+      "patterns": [
+        "kulit kering",
+        "Facial yang bagus untuk kulit kering?",
+        "Rekomendasi facial untuk kulit kering?",
+        "Paket facial untuk kulit kering?"
+      ],
+      "responses": [
+        "Bagi kulit kering, kami merekomendasikan paket Hydrating Facial yang dapat memberikan kelembapan ekstra untuk kulit Anda.",
+        "Facial yang tepat untuk kulit kering adalah Hydrating Facial. Ini akan membantu melembapkan kulit yang kering dan dehidrasi.",
+        "Untuk kulit kering, cobalah paket Hydrating Facial yang dirancang untuk memberikan kelembapan dan menjaga kulit tetap lembut."
+      ]
+    },
+    {
+      "tag": "facial_kombinasi",
+      "patterns": [
+        "facial kombinasi",
+        "facial untuk kulit kombinasi",
+        "facial kulit kombinasi"
+      ],
+      "responses": [
+        "Untuk kulit kombinasi, kami merekomendasikan paket Balancing Facial. Ini akan membantu menyeimbangkan kelembapan kulit di area T-zone dan kelembapan di area pipi.",
+        "Paket Balancing Facial adalah pilihan yang baik untuk kulit kombinasi, memberikan perawatan yang seimbang untuk kulit Anda.",
+        "Cobalah paket Balancing Facial, facial ini dapat membantu menjaga keseimbangan antara kulit berminyak di area T-zone dan kulit kering di area lainnya."
+      ]
+    },
+    {
+      "tag": "facial_jerawat",
+      "patterns": [
+        "facial jerawat",
+        "facial untuk kulit berjerawat",
+        "facial kulit berjerawat"
+      ],
+      "responses": [
+        "Jika Anda memiliki kulit berjerawat, kami merekomendasikan paket Acne Control Facial yang dapat membantu mengatasi masalah jerawat dan mencegahnya muncul kembali.",
+        "Paket Acne Control Facial adalah pilihan yang tepat untuk kulit berjerawat, memberikan perawatan khusus untuk mengurangi peradangan dan jerawat.",
+        "Facial yang cocok untuk kulit berjerawat adalah Acne Control Facial. Ini akan membantu mengatasi jerawat dan membersihkan kulit dari kotoran penyebab jerawat."
+      ]
+    },
+    {
+      "tag": "facial_jerawat",
+      "patterns": [
+        "facial jerawat",
+        "facial untuk kulit berjerawat",
+        "facial kulit berjerawat"
+      ],
+      "responses": [
+        "Jika Anda memiliki kulit berjerawat, kami merekomendasikan paket Acne Control Facial yang dapat membantu mengatasi masalah jerawat dan mencegahnya muncul kembali.",
+        "Paket Acne Control Facial adalah pilihan yang tepat untuk kulit berjerawat, memberikan perawatan khusus untuk mengurangi peradangan dan jerawat.",
+        "Facial yang cocok untuk kulit berjerawat adalah Acne Control Facial. Ini akan membantu mengatasi jerawat dan membersihkan kulit dari kotoran penyebab jerawat."
+      ]
+    },
+    {
+      "tag": "facial_penuaan_dini",
+      "patterns": [
+        "facial penuaan dini",
+        "facial untuk mencegah penuaan dini",
+        "facial kulit mulai menua"
+      ],
+      "responses": [
+        "Untuk mencegah penuaan dini, kami merekomendasikan paket Anti-Aging Facial yang dapat membantu mengurangi garis halus dan meningkatkan elastisitas kulit.",
+        "Paket Anti-Aging Facial adalah pilihan terbaik untuk menjaga kulit Anda tetap awet muda, mengurangi tanda-tanda penuaan, dan meningkatkan kekenyalan kulit.",
+        "Facial Anti-Aging cocok untuk Anda yang ingin mencegah penuaan dini. Facial ini membantu meremajakan kulit dan mengurangi kerutan serta garis halus."
+      ]
+    },
+    {
+      "tag": "facial_kusam",
+      "patterns": [
+        "facial kusam",
+        "facial untuk kulit kusam",
+        "facial kulit kusam"
+      ],
+      "responses": [
+        "Jika kulit Anda kusam, kami merekomendasikan paket Brightening Facial yang akan membantu mencerahkan kulit dan memberikan kilau alami.",
+        "Facial Brightening Facial sangat cocok untuk kulit kusam, membantu mengatasi kulit yang tampak lelah dan memberikan hasil yang cerah dan segar.",
+        "Paket Brightening Facial adalah pilihan tepat untuk mencerahkan kulit kusam dan memberikan kilau alami pada wajah Anda."
+      ]
+    },
+    {
+      "tag": "facial_normal",
+      "patterns": [
+        "facial normal",
+        "facial untuk kulit normal",
+        "facial kulit normal"
+      ],
+      "responses": [
+        "Untuk kulit normal, kami rekomendasikan paket Classic Facial yang cocok untuk menjaga keseimbangan kulit tanpa merusaknya.",
+        "Paket Classic Facial adalah pilihan terbaik untuk kulit normal yang ingin menjaga kesehatannya tanpa terlalu banyak perawatan.",
+        "Facial yang cocok untuk kulit normal adalah Classic Facial, yang memberikan perawatan dasar untuk kulit Anda agar tetap sehat dan segar."
       ]
     }
   ]

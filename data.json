@@ -75,7 +75,7 @@
     },
     {
       "tag": "greeting",
-      "patterns": ["Halo", "Hai", "Pagi", "Siang", "Malam", "Hey", "Hi"],
+      "patterns": ["Halo", "Hai", "Pagi", "Siang", "Malam", "Hey", "Hi", "hallo"],
       "responses": [
         "Halo! Ada yang bisa saya bantu?",
         "Hai, selamat datang di RUDI SALON & SPA! Ada yang bisa saya bantu?"
@@ -108,6 +108,7 @@
     {
       "tag": "layanan",
       "patterns": [
+        "layanan",
         "Apa saja layanan di sini?",
         "Layanan apa yang tersedia?",
         "Jenis perawatan apa yang ada?",
@@ -128,18 +129,19 @@
     {
       "tag": "harga",
       "patterns": [
+        "harga",
         "Berapa harga facial?",
         "Harga layanan berapa?",
         "Berapa biaya perawatan?"
       ],
       "responses": [
-        "Harga facial dimulai dari Rp150.000, tergantung jenis perawatan.",
         "Layanan kami mulai dari Rp100.000 hingga Rp500.000. Ingin tahu lebih lanjut?"
       ]
     },
     {
       "tag": "jadwal",
       "patterns": [
+        "jadwal",
         "Jam buka salon?",
         "Salon buka sampai jam berapa?",
         "Jam operasional Rudy Salon?",
@@ -155,6 +157,7 @@
     {
       "tag": "kontak",
       "patterns": [
+        "kontak",
         "Bagaimana cara menghubungi?",
         "Nomor kontak salon?",
         "Apa nomor yang bisa dihubungi?",
@@ -178,6 +181,7 @@
     {
       "tag": "reservasi",
       "patterns": [
+        "reservasi",
         "Bagaimana cara reservasi?",
         "Bisa booking perawatan?",
         "Apa cara untuk melakukan reservasi?",
@@ -200,14 +204,14 @@
     {
       "tag": "promo",
       "patterns": [
-        "diskon",
         "promo",
+        "diskon",
         "Ada promo saat ini?",
         "Diskon apa yang tersedia?",
         "Apa ada penawaran khusus?",
         "Promo spesial apa yang sedang berlangsung?",
         "Ada diskon bulan ini?",
-        "Apakah ada potongan harga sekarang?",
+        "Apakah adadisk potongan harga sekarang?",
         "Ada promo menarik di Rudy Salon & Spa?"
       ],
       "responses": [
@@ -224,6 +228,7 @@
     {
       "tag": "karyawan",
       "patterns": [
+        "karyawan",
         "Berapa banyak staf di sini?",
         "Ada berapa stylist di salon ini?",
         "Berapa banyak karyawan yang bekerja di Rudy Salon?",
@@ -246,23 +251,54 @@
     {
       "tag": "lokasi",
       "patterns": [
-        "Dimana lokasi salon ini?",
-        "Alamat RUDy SALON & SPA dimana?"
+        "dimana",
+        "di mana",
+        "lokasi",
+        "alamat",
+        "Di mana alamat Rudy Salon & Spa?",
+        "Bisa kasih tahu lokasi salon ini?",
+        "Rudy Salon & Spa ada di mana ya?",
+        "Alamat lengkap Rudy Salon & Spa?",
+        "Lokasi Rudy Salon & Spa itu di mana?",
+        "Salon Rudy itu ada di daerah mana?",
+        "Di mana tempat Rudy Salon & Spa?",
+        "Tempat salon Rudy itu di mana?",
+        "Dimana lokasi tempat Rudy Salon & Spa?",
+        "Bisa berikan alamat lengkap Rudy Salon & Spa?"
       ],
       "responses": [
-        "Hai Berikut beberapa lokasi salon Rudy Hadisuwarno yang bisa Anda kunjungi\n\n1 Salon Rudy Hadisuwarno Signature Jakarta\nMall of Indonesia Lantai 1 G11\nUntuk reservasi hubungi +62 81399891248 WA Only\n\n2 Salon Rudy Cipondoh Tangerang\nRuko Estrella AC05 Jl Rasuna Said No125 Pakojan Kota Tangerang Banten 15142\n\n3 Salon Rudy Denpasar Denpasar\nJl Yudistira No15A Dangin Puri Kauh Kec Denpasar Utara Kota Denpasar Bali 80224\n\n4 Salon Rudy Kuta Bali Kuta\nJl Raya Kuta No104 Kuta Kec Kuta Kabupaten Badung Bali 80361\n\n5 Salon Rudy Mal Ciputra Jakarta Barat\nMal Ciputra Lantai LG No 37 Jl Letjen S Parman Grogol Jakarta Barat\n\nUntuk informasi lebih lanjut kunjungi halaman lokasi kami di [https://www.rudyhadisuwarno.id/location](https://www.rudyhadisuwarno.id/location)\nSemoga salah satu lokasi ini dekat dengan Anda"
+        "Rudy Salon & Spa berlokasi di Jalan Boulevard Hijau Raya No. 56 Blok A3 RT 06/RW09, Pejuang, Kecamatan Medan Satria, Bekasi Regency, Jawa Barat. Silakan kunjungi, kami tunggu kehadiran Anda!"
+      ]
+    },
+    {
+      "tag": "produk",
+      "patterns": [
+        "produk",
+        "Apa saja produk yang dijual di Rudy Salon?",
+        "Produk apa yang tersedia di salon ini?",
+        "Ada produk kecantikan apa yang dijual di Rudy Salon?",
+        "Apa saja produk perawatan yang bisa dibeli di Rudy Salon?",
+        "Produk perawatan apa yang tersedia di Rudy Salon?",
+        "Apa saja produk kecantikan yang dijual di salon ini?"
+      ],
+      "responses": [
+        "Kami menjual berbagai produk perawatan rambut, wajah, dan tubuh dari merek terkemuka. Anda bisa mendapatkan produk-produk berkualitas di Rudy Salon.",
+        "Di Rudy Salon, Anda bisa menemukan produk perawatan rambut, wajah, dan tubuh dari merek terpercaya. Kunjungi kami untuk mendapatkan produk kecantikan terbaik!"
       ]
     },
     {
       "tag": "metode_pembayaran",
       "patterns": [
+        "metode pembayaran",
+        "pembayaran",
         "Apa saja metode pembayaran yang diterima?",
         "Bisa bayar pakai kartu?",
         "Metode pembayaran apa saja yang diterima di Rudy Salon?",
         "Apa saja cara pembayaran di salon ini?",
         "Bisa bayar pakai e-wallet?",
         "Pembayaran diterima dengan cara apa saja?",
-        "Metode pembayaran apa yang tersedia di Rudy Salon?"
+        "Metode pembayaran apa yang tersedia di Rudy Salon?",
+        "metode pembayaran apa yang bisa digunakan?"
       ],
       "responses": [
         "Kami menerima pembayaran tunai, kartu debit/kredit, dan e-wallet seperti OVO dan GoPay.",
@@ -277,6 +313,8 @@
     {
       "tag": "keluhan",
       "patterns": [
+        "tidak puas",
+        "saya tidak puas",
         "Saya tidak puas dengan layanan",
         "Bagaimana cara komplain?",
         "Saya ingin menyampaikan keluhan",
@@ -298,6 +336,7 @@
     {
       "tag": "spa_rekomendasi",
       "patterns": [
+        "rekomendasi",
         "Rekomendasi spa terbaik?",
         "Spa yang cocok untuk relaksasi?",
         "Apa paket spa terbaik untuk relaksasi?",
@@ -307,33 +346,11 @@
       ],
       "responses": [
         "Kami merekomendasikan paket spa Aromatherapy untuk relaksasi terbaik. Harganya Rp300.000 per sesi.",
-        "Untuk relaksasi, coba paket Body Spa + Aromatherapy. Dijamin membuat Anda rileks.",
         "Paket spa Aromatherapy sangat cocok untuk relaksasi, dengan harga Rp300.000 per sesi.",
         "Cobalah paket Body Spa + Aromatherapy untuk pengalaman relaksasi yang luar biasa. Harga Rp350.000 per sesi.",
         "Untuk meredakan stres, kami menyarankan paket Relaxation Spa yang mencakup pijat aromaterapi. Harga Rp250.000 per sesi.",
         "Paket spa terbaik untuk Anda adalah Aromatherapy atau Body Spa, keduanya efektif untuk relaksasi maksimal.",
         "Jika Anda mencari relaksasi, coba paket Body Spa + Aromatherapy, yang akan membuat Anda merasa lebih segar dan tenang."
-      ]
-    },
-    {
-      "tag": "facial_rekomendasi",
-      "patterns": [
-        "Facial untuk kulit berminyak?",
-        "Facial yang cocok untuk kulit sensitif?",
-        "Facial yang bagus untuk kulit kering?",
-        "Paket facial untuk kulit sensitif?",
-        "Apa facial yang cocok untuk kulit berminyak?",
-        "Rekomendasi facial untuk kulit kering?"
-      ],
-      "responses": [
-        "Untuk kulit berminyak, kami merekomendasikan paket Deep Cleansing Facial. Aman dan efektif.",
-        "Cobalah paket Sensitive Skin Facial untuk kulit sensitif. Hasilnya akan membuat kulit Anda lebih tenang.",
-        "Jika Anda memiliki kulit berminyak, paket Deep Cleansing Facial adalah pilihan yang tepat untuk membersihkan dan menyegarkan kulit.",
-        "Untuk kulit sensitif, kami menyarankan paket Sensitive Skin Facial yang dirancang khusus untuk merawat kulit dengan lembut.",
-        "Facial untuk kulit berminyak yang paling cocok adalah Deep Cleansing Facial. Ini akan membantu mengatasi kelebihan minyak dan pori-pori tersumbat.",
-        "Jika kulit Anda sensitif, coba paket Sensitive Skin Facial. Facial ini akan menenangkan dan melembapkan kulit tanpa iritasi.",
-        "Bagi kulit kering, kami merekomendasikan paket Hydrating Facial yang dapat memberikan kelembapan ekstra untuk kulit Anda.",
-        "Untuk kulit sensitif, kami punya paket Facial Gentle Care yang memberikan perawatan lembut dan menenangkan."
       ]
     }
   ]

@@ -34,6 +34,8 @@ for intent in intents["intents"]:
 # Lemmatisasi kata-kata dan ubah menjadi huruf kecil, lalu hapus duplikat
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
+
+
 # Urutkan kelas
 classes = sorted(list(set(classes)))
 print(len(documents), "dokumen")
